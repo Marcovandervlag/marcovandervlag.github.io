@@ -57,6 +57,7 @@
             <ul class="dropdown right0">
                 <li><a href="https://koalateen.github.io/socials.html">Socials</a></li>
                 <li><a href="https://koalateen.github.io/persoonsgegevens.html">Persoonlijke gegevens</a></li>
+                <li><button onclick="darkTheme()">Toggle dark mode</button></li>
             </ul>
         </li>
     </ul>
@@ -73,4 +74,11 @@
     
     
     </div>
+
+<script>
+    function darkTheme() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+    </script>
 </body></html>

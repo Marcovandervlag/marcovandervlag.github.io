@@ -3,6 +3,10 @@ body{
     background-color: rgba(223, 223, 223, 0.574);
     margin:0;
 }
+.dark-mode {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
 .test{
     width: 250px;
     height: auto;
