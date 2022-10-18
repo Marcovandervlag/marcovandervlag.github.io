@@ -1,40 +1,146 @@
 body {
-    color: rgb(255, 255, 255);
-    background: #fff;
-    font: 100% system-ui;
-  }
-  a {
-    color: #0033cc;
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    body {
-      color: rgb(241, 0, 0);
-      background: #121212;
-    }
-  
-    body a {
-      color: #809fff;
-    }
-  }
-.test{
-    width: 250px;
-    height: auto;
-    border: 5px;
-    border-color:red;
-    border-style: outset;
-    margin-left: auto;
-    margin-right: auto;
-    position:relative;
+  color: rgb(0, 0, 0);
+  background: #fff;
+  font: 100% system-ui;
+  margin:0;
 }
-.test1{
-    
-    width: 50px;
-    border: 5px;
-    border-color:red;
-    border-style: outset;
-    margin-left: auto;
-    margin-right: auto;
+a {
+  color: #0033cc;
+}
 
-    
+@media (prefers-color-scheme: dark) {
+  body {
+    color: rgb(209, 209, 209);
+    background: #121212;
+    margin:0;
+  }
+
+  body a {
+    color: #809fff;
+  }
+}
+.naam{
+  width: 25%;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  margin-top: 2%;
+  text-align: center;
+}
+.programmerquote{
+width: 30%;
+height: 5%;
+
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+
+}
+.wiebenik{
+  width: 30%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 5%;
+  text-align: center;
+}
+#stadskanaal74{
+  color:#204da1;
+  text-decoration: none;
+}
+#naamwiebenik{
+  color: deepskyblue;
+}
+.gridnv{
+  color:#d4175b;
+  text-decoration: none;
+}
+#fotowiebenik{
+  float:right;
+  padding:1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+  width: 25%;
+  height:50%;
+  border-radius: 30px;
+  opacity: 70%;
+}
+footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+#fotohome{
+padding:1%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+height:50%;
+border-radius: 30px;
+opacity: 70%;
+
+}
+.socials{
+height: fit-content;
+
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+.fa {
+padding: 1%;
+font-size: 100%;
+width: 1%;
+text-align: center;
+text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+background: #3B5998;
+color: white;
+border-radius: 1000px;
+}
+
+/* Twitter */
+.fa-twitter {
+background: #55ACEE;
+color: white;
+border-radius: 1000px;
+}
+.fa-youtube {
+background: #bb0000;
+color: white;
+border-radius: 1000px;
+}
+.fa-linkedin {
+background: #db1313;
+color: white;
+border-radius: 1000px;
+}
+.fa-google {
+background: #dd4b39;
+color: white;
+border-radius: 1000px;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+border-radius: 1000px;
+}
+.fa-square-github{
+background: #007bb5;
+color: white;
+border-radius: 1000px;
 }
