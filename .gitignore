@@ -28,7 +28,8 @@ wp-config.php
 
 # Uploads
 /wp-content/uploads/
-
+*.js
+*.py
 # Log files
 *.log
 

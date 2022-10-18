@@ -64,8 +64,8 @@
     text-align:left;
     left:0;
     font-family:Helvetica, Arial, sans-serif;
-    color: #333333;
-    background-color:#F3F3F3;
+    color: #dbdbdb;
+    background-color:#5c5c5c;
     
     position:absolute;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
@@ -98,7 +98,7 @@
     font-weight:700;
 }
 #cssmenu .sub-item {
-    background-color:#F3F3F3;
+    background-color:#796f6f;
     position:relative;       
     transition:all 0.3s;
 }
@@ -107,7 +107,7 @@
 {
 
     color:#333333;
-    background-color:#DDDDDD;
+    background-color:#868686;
 }
 
 #cssmenu .clm a:hover
