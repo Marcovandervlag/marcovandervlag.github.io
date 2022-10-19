@@ -6,7 +6,7 @@ $(function () {
     bar += '<div id="cssmenu">'
         bar += '<ul>'
             bar += '<li>'
-                bar += '<a href="https://koalateen.github.io/index.html">Home</a>'
+                bar += '<a href="https://koalateen.github.io/">Home</a>'
 bar += '                '
             bar += '</li>'
             bar += '<li><a>About me<i class="arrow"></i></a>'
