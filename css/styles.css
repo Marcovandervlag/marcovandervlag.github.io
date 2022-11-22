@@ -21,6 +21,26 @@ a {
     color:rgb(0, 0, 0);
     text-decoration: none;
   }
+  .python{
+    margin-left: 20%;
+    margin-top: 0px;
+    width: 50%;
+    float:left; /* add this */
+    border: 0px solid red;
+  }
+  .related-links{
+    overflow: hidden;
+    border: 0px solid red;
+    margin-left:80%;
+    
+  }
+  .socials-links{
+    overflow: hidden;
+    border: 0px solid red;
+    margin-left:80%;
+    margin-top: 0;
+    
+  }
   .wiebenik{
     width: 30%;
     margin-left: auto;
@@ -147,7 +167,7 @@ a {
   .fa {
   padding: 1%;
   font-size: 100%;
-  width: 1%;
+  width: 6%;
   text-align: center;
   text-decoration: none;
   }
@@ -277,6 +297,19 @@ a {
       
     
     }
+      .related-links{
+    overflow: hidden;
+    border: 0px solid red;
+    margin-left:80%;
+    
+  }
+  .socials-links{
+    overflow: hidden;
+    border: 0px solid red;
+    margin-left:80%;
+    margin-top: 0;
+    
+  }
     #cvregel1{
       color:rgb(223, 223, 223);
       text-decoration: none;
@@ -347,7 +380,7 @@ a {
     .fa {
     padding: 1%;
     font-size: 100%;
-    width: 1%;
+    width: 6%;
     text-align: center;
     text-decoration: none;
     }
@@ -397,6 +430,27 @@ a {
     color: white;
     border-radius: 1000px;
     }
+    .python{
+      margin-left: 20%;
+      margin-top: 0px;
+      width: 50%;
+      float:left; /* add this */
+      border: 0px solid red;
+    }
+    .related-links{
+      overflow: hidden;
+      border: 0px solid red;
+      margin-left:80%;
+      
+    }
+    .socials-links{
+      overflow: hidden;
+      border: 0px solid red;
+      margin-left:80%;
+      margin-top: 0;
+      
+    }
+    
   
 }
 
