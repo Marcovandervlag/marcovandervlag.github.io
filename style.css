@@ -1,0 +1,145 @@
+.bg {
+    background: #19191B;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .1);
+    backdrop-filter: blur(12.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    /*background-image: url(https://harindu.me/assets/img/snow.webp);
+    background-attachment: fixed*/
+  }
+  
+  .profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 100px;
+    border-radius: 50%
+  }
+  
+  .profile-name {
+    text-align: center;
+    padding: 10px;
+    font-family: Karla, sans-serif;
+    font-weight: 700;
+    color: #FEFFFE;
+    font-size: 20px
+  }
+  
+  .profile-about {
+    text-align: center;
+    padding: 2px;
+    font-family: Dosis, sans-serif;
+    color: #FEFFFE;
+    font-size: 15px;
+    letter-spacing: 2px
+  }
+  
+  .links {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border: .5px solid #27262B;
+    border-width: 1px;
+    display: block;
+    border-radius: 10px;
+    font-family: Karla, sans-serif;
+    position: relative;
+    font-size: 17px;
+    width: 680px;
+    max-width: 95%;
+    transition: all .3s ease-in-out
+  }
+  
+  
+  .links-in {
+    padding: 5px;
+    border: .5px solid #ffffff00;
+    border-width: 1px;
+    width: 30px;
+    display: block;
+    border-radius: 40px;
+    left: 20px;
+    position: absolute;
+    font-size: 20px
+  }
+  
+  .hover {
+    text-decoration: none;
+    color: #FEFFFE;
+    transition: all .3s;
+    background: #27262B
+  }
+  
+  .hover:hover {
+    text-decoration: none;
+    color: #FEFFFE;
+    background: #27262B;
+    transition: all .2s;
+    transform: scale(1.03)
+  }
+  
+  .bottom-text {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #FEFFFE;
+    font-family: Handlee, cursive
+  }
+  
+  .link-hide {
+    text-decoration: none
+  }
+  
+  .link-hide:hover {
+    text-decoration: none
+  }
+  
+  @media (max-width:548px) {
+    .profile-about {
+      text-align: center;
+      padding: 2px;
+      font-family: Dosis, sans-serif;
+      color: #FEFFFE;
+      font-size: 15px;
+      letter-spacing: 1px
+    }
+  }
+  
+  .links-footer {
+    padding: 4px;
+    border: .5px solid #FEFFFE;
+    border-width: 1px;
+    width: 40px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    margin-top: 50px;
+    color: #000;
+    transition: color 1s;
+    transition: all .3s;
+    background: #FEFFFE
+  }
+  
+  .links-footer:hover {
+    color: #000;
+    background: #FEFFFE;
+    transition: all .3s
+  }
+  
+  .space {
+    padding-top: 40px
+  }
+  
+  .drag {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    -user-drag: none
+  }

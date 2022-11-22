@@ -1,0 +1,687 @@
+body {
+  color: rgb(0, 0, 0);
+  background: #fff;
+  font: 100% system-ui;
+  margin:0;
+}
+a {
+  color: #0033cc;
+}
+.programmerquote{
+  width: 30%;
+  height: 5%;
+  
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  }
+
+  #cvregel1{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .python{
+    margin-left: 20%;
+    margin-top: 0px;
+    width: 50%;
+    float:left; /* add this */
+    border: 0px solid red;
+  }
+  .related-links{
+    overflow: hidden;
+    border: 0px solid red;
+    margin-left:80%;
+    
+  }
+  .socials-links{
+    overflow: hidden;
+    border: 1px solid red;
+    margin-left:80%;
+    margin-top: 0;
+    
+  }
+  .wiebenik{
+    width: 30%;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top: 0;
+    box-align: 0px;
+  }
+  #stadskanaal74{
+    color:#1e90db;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  #naamwiebenik{
+    color: deepskyblue;
+  }
+  .gridnv{
+    color:#d4175b;
+    text-decoration: none;
+  }
+  .cert{
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    margin-top: 150px;
+    background-color: hsl(0, 0%, 100%);
+    transition: background-color 300ms;  
+    width:700;
+    height:500px;
+    border: #121212;
+    border-style: outset;
+  }
+  .cert1{
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    margin-top: 5px;
+    background-color: hsl(0, 0%, 100%);
+    transition: background-color 300ms;  
+    width:700;
+    height:700px;
+    border: #121212;
+    border-style: outset;
+  }
+  #fotowiebenik{
+    
+    padding:1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 50%;
+    height:35%;
+    border-radius: 30px;
+    
+  
+  }
+  .downloadbtn {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    float:center;
+    text-decoration: none;
+  }
+  .downloadbtn1{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .pdf{
+  
+    align-self: auto;
+    border: outset #FFFF00;
+    margin-top: 10%;
+  
+    right:10px;
+    left:1000px;
+  }
+  .cv{
+  
+    margin: auto;
+    width: 60%;
+    
+    margin-top: 2%;
+    height: 300px;
+    
+  }
+  /* Darker background on mouse-over */
+  .downloadbtn:hover {
+    opacity: 70%;
+  }
+  .footer {
+    position: static;
+    bottom: 0;
+  
+    
+    text-align: center;
+    height:fit-content;
+  }
+  #fotohome{
+    padding:1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 50%;
+    border-radius: 30px;
+    
+  
+  }
+
+  .naam{
+    width: 25%;
+    height: auto;
+  
+    margin-left: auto;
+    margin-right: auto;
+    position:relative;
+    margin-top: 2%;
+    text-align: center;
+  }
+  .fa {
+  padding: 1%;
+  font-size: 100%;
+  width: 6%;
+  text-align: center;
+  text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+  opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  border-radius: 1000px;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border-radius: 1000px;
+  }
+  .fa-youtube {
+  background: #bb0000;
+  color: white;
+  border-radius: 1000px;
+  }
+  .fa-linkedin {
+  background: #db1313;
+  color: white;
+  border-radius: 1000px;
+  }
+  .fa-google {
+  background: #dd4b39;
+  color: white;
+  border-radius: 1000px;
+  }
+  .fa-linkedin {
+  background: #007bb5;
+  color: white;
+  border-radius: 1000px;
+  }
+  .fa-github{
+  background: #282828;
+  color: white;
+  border-radius: 1000px;
+  }
+/* DARK MODE */
+/* DARK MODE */
+/* DARK MODE */
+/* DARK MODE */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: rgb(209, 209, 209);
+    background: #121212;
+    margin:0;
+  }
+
+  body a {
+    color: #809fff;
+  }
+  .programmerquote{
+    width: 30%;
+    height: 5%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    }
+    .cert{
+      display: block;
+      -webkit-user-select: none;
+      margin: auto;
+      margin-top: 150px;
+      background-color: hsl(0, 0%, 0%);
+      transition: background-color 300ms;  
+      width:700;
+      height:500px;
+      border: #ffffff;
+      border-style: outset;
+    }
+    .cert1{
+      display: block;
+      -webkit-user-select: none;
+      margin: auto;
+      margin-top: 5px;
+      background-color: hsl(0, 0%, 0%);
+      transition: background-color 300ms;  
+      width:700;
+      height:700px;
+      border: #ffffff;
+      border-style: outset;
+    }
+    .wiebenik{
+      width: 30%;
+      margin-left: auto;
+      margin-right:auto;
+      text-align: center;
+      margin-top: 0;
+      box-align: 0px;
+    }
+    #stadskanaal74{
+      color:#3f79e4;
+      text-decoration: none;
+    }
+    #naamwiebenik{
+      color: deepskyblue;
+    }
+    .gridnv{
+      color:#d4175b;
+      text-decoration: none;
+    }
+    #fotowiebenik{
+    
+      padding:1%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8%;
+      width: 50%;
+      height:35%;
+      border-radius: 30px;
+      
+    
+    }
+      .related-links{
+    overflow: hidden;
+    border: 0px solid red;
+    margin-left:80%;
+    
+  }
+  .socials-links{
+    overflow: hidden;
+    border: 0px solid red;
+    margin-left:80%;
+    margin-top: 0;
+    
+  }
+    #cvregel1{
+      color:rgb(223, 223, 223);
+      text-decoration: none;
+    }
+    .downloadbtn {
+      background-color: #121212;
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      cursor: pointer;
+      font-size: 20px;
+      float:center;
+      text-decoration: none;
+    }
+    .downloadbtn1{
+      text-decoration: none;
+      color: white;
+    }
+    .pdf{
+    
+      align-self: auto;
+      border: outset #FFFF00;
+      margin-top: 10%;
+    
+      right:10px;
+      left:1000px;
+    }
+    .cv{
+    
+      margin: auto;
+      width: 60%;
+      
+      margin-top: 2%;
+      height: 300px;
+      
+    }
+    /* Darker background on mouse-over */
+    .downloadbtn:hover {
+      opacity: 70%;
+    }
+    .footer {
+      position: static;
+      bottom: 0;
+    
+      
+      text-align: center;
+      height:fit-content;
+    }
+    #fotohome{
+      padding:1%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 25%;
+      height: 50%;
+      border-radius: 30px;
+      opacity: 70%;
+    
+    }
+    .socials{
+      position: sticky;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      
+      
+    }
+    .fa {
+    padding: 1%;
+    font-size: 100%;
+    width: 6%;
+    text-align: center;
+    text-decoration: none;
+    }
+    
+    /* Add a hover effect if you want */
+    .fa:hover {
+    opacity: 0.7;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 1000px;
+    }
+    
+    /* Twitter */
+    .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 1000px;
+    }
+    .fa-youtube {
+    background: #bb0000;
+    color: white;
+    border-radius: 1000px;
+    }
+    .fa-linkedin {
+    background: #db1313;
+    color: white;
+    border-radius: 1000px;
+    }
+    .fa-google {
+    background: #dd4b39;
+    color: white;
+    border-radius: 1000px;
+    }
+    .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 1000px;
+    }
+    .fa-github{
+    background: #282828;
+    color: white;
+    border-radius: 1000px;
+    }
+    .python{
+      margin-left: 20%;
+      margin-top: 0px;
+      width: 50%;
+      float:left; /* add this */
+      border: 0px solid red;
+    }
+    .related-links{
+      overflow: hidden;
+      border: 0px solid red;
+      margin-left:80%;
+      
+    }
+    .socials-links{
+      overflow: hidden;
+      border: 0px solid red;
+      margin-left:80%;
+      margin-top: 0;
+      
+    }
+    
+  
+}
+@media (max-width:548px) {
+  body {
+    color: rgb(209, 209, 209);
+    background: #121212;
+    margin:0;
+  }
+
+  body a {
+    color: #809fff;
+  }
+  .programmerquote{
+    width: 55%;
+    height: 0%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    }
+    .cert{
+      display: block;
+      -webkit-user-select: none;
+      margin: auto;
+      margin-top: 150px;
+      background-color: hsl(0, 0%, 0%);
+      transition: background-color 300ms;  
+      width:700;
+      height:500px;
+      border: #ffffff;
+      border-style: outset;
+    }
+    .cert1{
+      display: block;
+      -webkit-user-select: none;
+      margin: auto;
+      margin-top: 5px;
+      background-color: hsl(0, 0%, 0%);
+      transition: background-color 300ms;  
+      width:700;
+      height:700px;
+      border: #ffffff;
+      border-style: outset;
+    }
+    .wiebenik{
+      width: 75%;
+      margin-left: auto;
+      margin-right:auto;
+      text-align: center;
+      margin-top: 0;
+      box-align: 0px;
+    }
+    #stadskanaal74{
+      color:#3f79e4;
+      text-decoration: none;
+    }
+    #naamwiebenik{
+      color: deepskyblue;
+    }
+    .gridnv{
+      color:#d4175b;
+      text-decoration: none;
+    }
+    #fotowiebenik{
+    
+      padding:1%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8%;
+      width: 50%;
+      height:22%;
+      border-radius: 30px;
+      
+    
+    }
+      .related-links{
+    overflow: hidden;
+    border: 0px solid red;
+    margin-left:80%;
+    
+  }
+  .socials-links{
+    overflow: hidden;
+    border: 0px solid red;
+    margin-left:80%;
+    margin-top: 0;
+    
+  }
+    #cvregel1{
+      color:rgb(223, 223, 223);
+      text-decoration: none;
+    }
+    .downloadbtn {
+      background-color: #121212;
+      border: none;
+      color: white;
+      padding: 12px 30px;
+      cursor: pointer;
+      font-size: 20px;
+      float:center;
+      text-decoration: none;
+    }
+    .downloadbtn1{
+      text-decoration: none;
+      color: white;
+    }
+    .pdf{
+    
+      align-self: auto;
+      border: outset #FFFF00;
+      margin-top: 10%;
+    
+      right:10px;
+      left:1000px;
+    }
+    .cv{
+    
+      margin: auto;
+      width: 60%;
+      
+      margin-top: 2%;
+      height: 300px;
+      
+    }
+    /* Darker background on mouse-over */
+    .downloadbtn:hover {
+      opacity: 70%;
+    }
+    .footer {
+      position: static;
+      bottom: 0;
+    
+      
+      text-align: center;
+      height:fit-content;
+    }
+    #fotohome{
+      padding:1%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      height: 20%;
+      border-radius: 30px;
+      opacity: 70%;
+      margin-top:30%;
+    
+    }
+    .socials{
+      position: sticky;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width:100%;
+      padding:5px;
+      
+      
+    }
+    .fa {
+    padding:8%;
+    font-size: 100%;
+    width: 0%;
+    text-align: center;
+    text-decoration: none;
+    }
+    
+    /* Add a hover effect if you want */
+    .fa:hover {
+    opacity: 0.7;
+    }
+    
+    /* Set a specific color for each brand */
+    
+    /* Facebook */
+    .fa-facebook {
+    background: transparent;
+    color: white;
+    border-radius: 1px;
+    }
+    
+    /* Twitter */
+    .fa-twitter {
+    background: transparent;
+    color: white;
+    border-radius: 50px;
+    }
+    .fa-youtube {
+    background: transparent;
+    color: white;
+    border-radius: 1000px;
+    }
+    .fa-linkedin {
+    background: transparent;
+    color: white;
+    border-radius: 1000px;
+    }
+    .fa-google {
+    background: transparent;
+    color: white;
+    border-radius: 1000px;
+    }
+    .fa-linkedin {
+    background: transparent;
+    color: white;
+    border-radius: 1000px;
+    }
+    .fa-github{
+    background: transparent;
+    color: white;
+    border-radius: 1000px;
+    }
+    .python{
+      margin-left: 5%;
+      margin-top: 0px;
+      width: 70%;
+      float:left; /* add this */
+      border: 0px solid red;
+    }
+    .related-links{
+      overflow: hidden;
+      border: 0px solid red;
+      margin-left:80%;
+      
+    }
+    .socials-links{
+      overflow: hidden;
+      border: 0px solid red;
+      margin-left:80%;
+      margin-top: 0;
+      
+    }
+  }
