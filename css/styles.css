@@ -464,8 +464,8 @@ a {
     color: #809fff;
   }
   .programmerquote{
-    width: 30%;
-    height: 5%;
+    width: 55%;
+    height: 0%;
     
     margin-left: auto;
     margin-right: auto;
@@ -497,7 +497,7 @@ a {
       border-style: outset;
     }
     .wiebenik{
-      width: 30%;
+      width: 75%;
       margin-left: auto;
       margin-right:auto;
       text-align: center;
@@ -523,7 +523,7 @@ a {
       margin-right: auto;
       margin-top: 8%;
       width: 50%;
-      height:35%;
+      height:22%;
       border-radius: 30px;
       
     
@@ -594,10 +594,11 @@ a {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 25%;
-      height: 50%;
+      width: 40%;
+      height: 20%;
       border-radius: 30px;
       opacity: 70%;
+      margin-top:30%;
     
     }
     .socials{
@@ -605,13 +606,15 @@ a {
       bottom: 0;
       left: 0;
       right: 0;
+      width:100%;
+      padding:5px;
       
       
     }
     .fa {
-    padding: 1%;
+    padding:8%;
     font-size: 100%;
-    width: 6%;
+    width: 0%;
     text-align: center;
     text-decoration: none;
     }
@@ -625,46 +628,46 @@ a {
     
     /* Facebook */
     .fa-facebook {
-    background: #3B5998;
+    background: transparent;
     color: white;
-    border-radius: 1000px;
+    border-radius: 1px;
     }
     
     /* Twitter */
     .fa-twitter {
-    background: #55ACEE;
+    background: transparent;
     color: white;
-    border-radius: 1000px;
+    border-radius: 50px;
     }
     .fa-youtube {
-    background: #bb0000;
+    background: transparent;
     color: white;
     border-radius: 1000px;
     }
     .fa-linkedin {
-    background: #db1313;
+    background: transparent;
     color: white;
     border-radius: 1000px;
     }
     .fa-google {
-    background: #dd4b39;
+    background: transparent;
     color: white;
     border-radius: 1000px;
     }
     .fa-linkedin {
-    background: #007bb5;
+    background: transparent;
     color: white;
     border-radius: 1000px;
     }
     .fa-github{
-    background: #282828;
+    background: transparent;
     color: white;
     border-radius: 1000px;
     }
     .python{
-      margin-left: 20%;
+      margin-left: 5%;
       margin-top: 0px;
-      width: 50%;
+      width: 70%;
       float:left; /* add this */
       border: 0px solid red;
     }
@@ -681,6 +684,4 @@ a {
       margin-top: 0;
       
     }
-    
-  
-}
+  }
