@@ -475,26 +475,26 @@ a {
     .cert{
       display: block;
       -webkit-user-select: none;
-      margin: auto;
-      margin-top: 150px;
-      background-color: hsl(0, 0%, 0%);
-      transition: background-color 300ms;  
-      width:700;
-      height:500px;
-      border: #ffffff;
+      margin-top: 15%;
+      background-color: hsl(0deg 15% 80%);
+      transition: background-color 900ms;  
+      width:80%;
+      height:30%;
+      border: #f8f8f8;
       border-style: outset;
+      border-radius:50px;
     }
     .cert1{
       display: block;
       -webkit-user-select: none;
-      margin: auto;
-      margin-top: 5px;
-      background-color: hsl(0, 0%, 0%);
-      transition: background-color 300ms;  
-      width:700;
-      height:700px;
-      border: #ffffff;
+      margin-top: 15%;
+      background-color: hsl(0deg 15% 80%);
+      transition: background-color 900ms;  
+      width:80%;
+      height:30%;
+      border: #f8f8f8;
       border-style: outset;
+      border-radius:50px;
     }
     .wiebenik{
       width: 75%;
@@ -581,37 +581,39 @@ a {
     .downloadbtn:hover {
       opacity: 70%;
     }
-    .footer {
-      position: static;     
-      text-align: center;
-      height:fit-content;
-    }
+
     #fotohome{
      
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 40%;
-      height: 22%;
+      width: 45%;
+      height: 25%;
       border-radius: 30px;
       opacity: 70%;
       margin-top:25%;
     
     }
     .socials{
-      position: sticky;
-      margin-top:100%;
+      
+      margin-bottom:100;
       left: 0;
       right: 0;
       width:100%;     
       
       
     }
+  .footer{
+    margin:150 0 0 0;
+
+  }
+
     .fa {
     padding:5%;
     font-size: 22px;
     text-align: center;
     text-decoration: none;
+    
     }
     
     /* Add a hover effect if you want */
