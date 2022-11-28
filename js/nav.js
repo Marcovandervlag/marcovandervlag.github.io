@@ -32,6 +32,7 @@ bar += '    '
                 
                         bar += '<li><a href="https://koalateen.github.io/qr-code-generator-logo">Qr-code generator logo</a></li>'
                         bar += '<li><a href="https://koalateen.github.io/weather-trough-gps">weather-trough-gps</a></li>'
+                        bar += '<li><a href="https://koalateen.github.io/vraagjes">Vraag voor bij de thee</a></li>'
 
                         
                         bar += '<li><a href="https://koalateen.github.io/websiteprojects">Website projects</a></li>'
@@ -39,7 +40,7 @@ bar += '    '
                     
 
             bar += '</li>'
-            /*bar += '<li><a href="https://koalateen.github.io/blogpost">Blog</a></li>'*/
+            
             bar += '<li>'
                 bar += '<li><a href="https://koalateen.github.io/persoonsgegevens">Contact</a></li>'
                 bar += '<ul class="dropdown right0">'
