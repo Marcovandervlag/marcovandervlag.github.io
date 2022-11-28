@@ -42,7 +42,7 @@ bar += '    '
             bar += '</li>'
             
             bar += '<li>'
-                bar += '<li><a href="https://koalateen.github.io/persoonsgegevens">Contact</a></li>'
+                bar += '<li><a href="https://koalateen.github.io/contact">Contact</a></li>'
                 bar += '<ul class="dropdown right0">'
                     
                     
