@@ -7,6 +7,24 @@ body {
 a {
   color: #0033cc;
 }
+    .theequote{
+        height: 10em;
+    position: relative;
+  font-size: 50px;
+  font-family: baskerville, serif;
+
+  
+  }
+  .theequote p{
+    margin: 0;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+  }
 .programmerquote{
   width: 30%;
   height: 5%;
