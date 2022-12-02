@@ -1,51 +1,250 @@
-<html><head>
-    <title>Portofolio</title>
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link href="https://koalateen.github.io/css/stylesnavbar.css" rel="stylesheet">
-    <link href="https://koalateen.github.io/css/styles.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="https://koalateen.github.io/img/favicon.ico">
-    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="https://koalateen.github.io/images/favicon.ico" />
+  <meta http-equiv="refresh" content="60">
+  <!-- Put your site title here -->
+  <title>
+    Marco van der Vlag | A Web Developer based in Blauwestad, Nederland
+  </title>
+
+  <meta name="description" content="A 22 year old student that wants to be a web developper">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="HTML, Java, JavaScript, Marco van der Vlag, KoalaTeen, Portfolio" />
+  <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
-<div id="main-bar"></div>
-<!-- Menu bar -->
-<script src="https://koalateen.github.io/js/nav.js" id="nav-bar"></script>
-<!-- End menu bar-->
-<!--end CssMenu-->
-</div>
-<div class="naam">
-<p>Marco van der Vlag</p>
 
-</div>
-<div class="programmerquote"><i>
-    <script id="template">
-        const months = ["“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”" ,"“First, solve the problem. Then, write the code.” ","“Experience is the name everyone gives to their mistakes.”","“In order to be irreplaceable, one must always be different”","“Java is to JavaScript what car is to Carpet.”","“Knowledge is power.”","“Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code.”","“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.”","“Ruby is rubbish! PHP is phpantastic!”","“Code is like humor. When you have to explain it, it’s bad.”","“Fix the cause, not the symptom.”","“Optimism is an occupational hazard of programming: feedback is the treatment.“","“When to use iterative development? You should use iterative development only on projects that you want to succeed.”","“Simplicity is the soul of efficiency.”","“Before software can be reusable it first has to be usable.”","“Make it work, make it right, make it fast.”"];
-        const random = Math.floor(Math.random() * months.length);
-        document.write(months[random])
-        var script = document.getElementById("template");
-        var target = document.getElementById("target");
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">My Resume</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          
+          <span>Marco van der Vlag</span>
+        </h1>
+       
+        <p>A Web Developer based in Blauwestad, Netherlands.</p>
+        <a href="#contact" class="btn btn--lime">Get in contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Potfolio website</h3>
+              <p>
+                My second self coded portfolio site. Build with:
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                
+              </ul>
+
+              <div class="work__links">
+                <a href="https://koalateen.github.io/" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://koalateen.github.io/" title="View website" target="_blank">
+                  <img src="https://koalateen.github.io/images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="https://koalateen.github.io/images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Random quotes</h3>
+              <p>
+                A quote generator that will take a random quote.
+              </p>
+              <ul class="work__list">
+                <li>Javascript</li>
+                <li>Html</li>
+                <li>CSS</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://koalateen.github.io/vraagjes" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="https://koalateen.github.io/images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="https://koalateen.github.io/images/project-2.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Club website</h3>
+              <p>
+                I made a website with Wix website builder. THis website is made for the sportsclub Stadskanaal'74. I am currently the webmaster of the site and every day I want to improve the site.
+              </p>
+              <ul class="work__list">
+                <li>WIX</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>TAGS</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://www.stadskanaal74.nl/" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="https://koalateen.github.io/images/websiteskn74.jpeg" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+
+      <div class="row">
+        <h2>My Resume</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="https://koalateen.github.io/images/cv.jpg" class="client__logo" alt="Company 2" />
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              My name is Marco van der Vlag. I am 22 years old and born in Stadskanaal. I grew up in Musselkanaal and recently moved to the Blauwestad. Here I made the choice to switch courses. I signed up for this from 2016 to 2020 as a Chemical Physics Analyst, but after 4 years I still got the feeling that it didn't suit me. Then I made the choice to start an education as All-round ICT and I will eventually grow into a web developer. I am a fanatical boy in the field of programming and helping people who have problems with the current ICT world.
+            </p>
+            <div class=".btn-content">
+            <!-- Provide a link to your resume -->
+            <a href="https://koalateen.github.io/images/cv.pdf" class="btn">Download my Resume</a>
+            
+
+          </div>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="https://koalateen.github.io/images/staandik.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Contact</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a user-friendly website to
+          represent your product or business? or want to ask questions? or have some advice for me
+          or just want to say "Hi 👋" in any case feel free to Let me know. I
+          will do my best to respond back. 😊 The quickest way to reach out to
+          me is via an email.
+        </p>
         
-        target.innerHTML = script.textContent;
-      </script>
-      </i>
-      <div id="template"></div>
+        <a href="mailto:marcovandervlag@outlook.com" class="btn">marcovandervlag@outlook.com</a>
+      </div>
+    </div>
+  </section>
 
-</div>
-<div class="fotohome">
-    <img id="fotohome" src="https://koalateen.github.io/img/staandik.png" alt="Portofolio image">
-</div>
+  <!-- ***** Footer ***** -->
 
-<div class="footer">
-    <div class="socials">
-    <a href="https://github.com/KoalaTeen" class="github"><i class="fa fa-github" style=" color: white; border-radius: 1000px;"></i></a>
-    <a href="https://twitter.com/teen_koala" class="twitter"><i class="fa fa-twitter"></i></a>
-    <a href="https://www.linkedin.com/in/marco-van-der-vlag-8748b5167/" class="linkedin"><i class="fa fa-linkedin"></i></a>
-    <a href="https://www.youtube.com/channel/UCNi1Eq429OmPub-u8UulS5g" class="youtube"><i class="fa fa-youtube"></i></a>
-  </div>
-  </div>
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+     
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://twitter.com/koalteen/" title="Link to Twitter Profile">
+            <img src="https://koalateen.github.io/images/twitter.svg" class="footer__social-image" alt="Twitter">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/koalateen/" title="Link to Github Profile">
+            <img src="https://koalateen.github.io/images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
+            <img src="https://koalateen.github.io/images/codepen.svg" class="footer__social-image" alt="Codepen">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
+            <img src="https://koalateen.github.io/images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+
+      <p>
+        &copy; 2022 - Portfolio designed by <a href="https://koalateen.github.io/" class="link">Marco</a>.
+      </p>
+      <div class="footer__github-buttons">
+
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="https://koalateen.github.io/images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="https://koalateen.github.io/index.js"></script>
 </body>
-    </html>
+
+</html>
