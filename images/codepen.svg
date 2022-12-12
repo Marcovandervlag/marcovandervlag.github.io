@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" <link id="dark-mode" rel="stylesheet" type="text/css"/><style id="dark-mode-custom-style" type="text/css"/><title>ionicons-v5_logos</title><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.441 16.892c-2.102.144-6.784.144-8.883 0-2.276-.156-2.541-1.27-2.558-4.892.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0 2.277.156 2.541 1.27 2.559 4.892-.018 3.629-.285 4.736-2.559 4.892zm-6.441-7.234l4.917 2.338-4.917 2.346v-4.684z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="#e5e5e6" viewBox="0 0 512 512"><link id="dark-mode" rel="stylesheet" type="text/css"/><style id="dark-mode-custom-style" type="text/css"/><title>ionicons-v5_logos</title>
+  <g id="g5" transform="scale(.58824)">
+    <path id="path7" fill="#282828" fill-opacity="1" d="M118.9 13.3c-1.4-5.2-5.5-9.3-10.7-10.7C98.7 0 60.7 0 60.7 0s-38 0-47.5 2.5C8.1 3.9 3.9 8.1 2.5 13.3 0 22.8 0 42.5 0 42.5s0 19.8 2.5 29.2C3.9 76.9 8 81 13.2 82.4 22.8 85 60.7 85 60.7 85s38 0 47.5-2.5c5.2-1.4 9.3-5.5 10.7-10.7 2.5-9.5 2.5-29.2 2.5-29.2s.1-19.8-2.5-29.3z"/>
+    <path id="polygon9" fill="#fff" d="M80.2 42.5 48.6 24.3v36.4z"/>
+  </g>
+</svg>
