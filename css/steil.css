@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Eleonore;
+    src: url("./Eleonore.otf");
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #68868c;
+    background-image: url('./topography2.svg');
+  }
+  
+  /* Style the header */
+  .header {
+    font-family: Eleonore;
+    background-image: url('./topography2.svg');
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 0.5px #131212;
+    background-color: #68868c;
+    padding: 20px;
+    text-align: center;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+  }
+
+
+:root {
+	--primary: #68868c;
+	--outdark: #52676b;
+	--white: #f9f9f9;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 22px;
+	margin-bottom: 16px;
+}
+
+.timeline {
+	position: relative;
+	max-width: 960px;
+	margin: 0 auto;
+}
+.timeline::after {
+	content: "";
+	position: absolute;
+	width: 6px;
+	background-color: var(--white);
+	top: 0;
+	bottom: 0;
+	left: 50%;
+}
+.container {
+	padding: 10px 40px;
+	position: relative;
+	background-color: inherit;
+	width: 50%;
+}
+.container::after {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: -17px;
+	background-color: var(--white);
+	border: solid 2px var(--primary);
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+}
+.left {
+	left: 0;
+}
+.right {
+	left: 50%;
+}
+.left::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	right: 30px;
+	border: medium solid var(--white);
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent var(--white);
+}
+.right::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	left: 30px;
+	border: medium solid var(--white);
+	border-width: 10px 10px 10px 0;
+	border-color: transparent var(--white) transparent transparent;
+}
+.right::after {
+	left: -12px;
+}
+
+#selfie{
+    border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%;max-width: 200px;margin-left: 20%;
+}
+.content {
+	padding: 20px 30px;
+	background-color: var(--white);
+	position: relative;
+	border-radius: 8px;
+}
+@media screen and (max-width: 900px) {
+    #selfie{
+        border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%;max-width: 200px;margin-left: 10%;
+    }}
+@media screen and (max-width: 600px) {
+	.timeline::after {
+		left: 31px;
+	}
+	.container {
+		width: 100%;
+		padding-left: 70px;
+		padding-right: 25px;
+	}
+	.container::before {
+		left: 60px;
+		border: medium solid var(--white);
+		border-width: 10px 10px 10px 0;
+		border-color: transparent var(--white) transparent transparent;
+	}
+	.left::after,
+	.right::after {
+		left: 15px;
+	}
+	.right {
+		left: 0%;
+	}
+}
